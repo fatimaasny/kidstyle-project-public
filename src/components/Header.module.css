@@ -1,0 +1,27 @@
+.header{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+
+.header h2{
+    font-size:2.5rem ;
+    color: #d8094e;
+    font-weight: 800;
+}
+.btnBasket button{
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #d8094e;
+    padding: 0.6rem 1.2rem;
+    border: 1px solid #d8094e;
+}
+.btnBasket button:hover{
+    color: #d8094e;
+    background-color: white;
+    border: 1px solid #d8094e;
+}
