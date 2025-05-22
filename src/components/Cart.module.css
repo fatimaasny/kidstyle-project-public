@@ -70,4 +70,14 @@
   .total-price {
     font-size: 0.8rem;
   }
+
+  .modalActions button {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .modalActions button {
+    font-size: 0.8rem;
+  }
 }

@@ -13,3 +13,22 @@
   color: #d8094e;
   margin-bottom: 4rem;
 }
+@media (max-width: 648px) {
+  .dialog {
+    width: 80%;
+    padding: 2.5rem 0.5rem;
+  }
+  .dialog h2 {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 649px) and (max-width: 1024px) {
+  .dialog {
+    width: 60%;
+    padding: 3rem 1rem;
+  }
+  .dialog h2 {
+    font-size: 0.9rem;
+  }
+}
