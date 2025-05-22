@@ -1,15 +1,13 @@
-
-.shop{
-    width: 80%;
-    margin: 2rem auto;
-    background-color: yellow;  
-
+.shop {
+  width: 80%;
+  margin: 2rem auto;
+  background-color: yellow;
 }
-.cart-items{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-    list-style: none;
+.cart-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  list-style: none;
 }

@@ -1,28 +1,58 @@
-.modal{
-    width: 40%;
-    border: 1px solid #d8094e;
-    background-color: #f4eaeb;
-    border-radius: 10px;
-    padding: 2rem;
-    margin: 0 auto;
-    top: 33%;
+.modal {
+  width: 40%;
+  border: 1px solid #d8094e;
+  background-color: #f4eaeb;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 0 auto;
+  top: 33%;
+}
+.modal h2 {
+  font-size: 1.3rem;
+  color: #d8094e;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.form button {
+  background-color: black;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+@media (max-width: 648px) {
+  .modal {
+    width: 80%;
+    padding: 0.5rem;
+  }
+  .modal h2 {
+    font-size: 1rem;
+  }
+  .form {
+    margin-top: 1rem;
+  }
+  .form button {
+    font-size: 0.85rem;
+  }
+}
 
-}
-.modal h2{
-    font-size: 1.3rem;
-    color: #d8094e;
-}
-.form{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    margin-top: 2rem;
-}
-.form button{
-    background-color: black;
-    color: white;
-    padding: 0.3rem 0.8rem;
-    font-size: 1.2rem;
-    cursor: pointer;
+@media (min-width: 649px) and (max-width: 1024px) {
+  .modal {
+    width: 55%;
+    padding: 1rem;
+  }
+  .modal h2 {
+    font-size: 1.1rem;
+  }
+  .form {
+    margin-top: 1rem;
+  }
+  .form button {
+    font-size: 1rem;
+  }
 }

@@ -1,15 +1,15 @@
-.dialog{
-    width: 40%;
-    /* height:30vh ; */
-    top: 33%;
-    /* right: 15%; */
-    margin: 0 auto;
-    border: 2px solid #d8094e;
-    padding: 6rem 4rem;
-    border-radius: 10px;
+.dialog {
+  width: 40%;
+  /* height:30vh ; */
+  top: 33%;
+  /* right: 15%; */
+  margin: 0 auto;
+  border: 2px solid #d8094e;
+  padding: 6rem 4rem;
+  border-radius: 10px;
 }
-.dialog h2{
-    font-size: 1.3rem;
-    color: #d8094e;
-    margin-bottom: 4rem;
+.dialog h2 {
+  font-size: 1.3rem;
+  color: #d8094e;
+  margin-bottom: 4rem;
 }
